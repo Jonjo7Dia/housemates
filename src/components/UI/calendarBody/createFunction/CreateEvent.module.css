@@ -1,0 +1,36 @@
+.createEvent{
+
+    width: 22rem;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 12px;
+    border-top:  #37405245 solid 2px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    border-style: none;
+
+}
+.exit {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 12px;
+    padding-right: 4px;
+    padding-top: 4px;
+    height: 2rem;
+}
+.exit button {
+    background-color: white !important;
+    outline: none !important;
+    border: none !important;
+    font-weight: bold;
+}
+.exit button:hover{
+    cursor: pointer;
+}

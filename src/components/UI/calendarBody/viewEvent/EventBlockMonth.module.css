@@ -1,0 +1,9 @@
+.eventBlockMonth{
+    width: 97%;
+    height: .6rem;
+    border: black solid 1px;
+    margin-bottom: 3px;
+    border-radius: 12px;
+    position:relative;
+
+}

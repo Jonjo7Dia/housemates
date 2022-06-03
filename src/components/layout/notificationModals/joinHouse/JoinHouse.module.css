@@ -1,0 +1,25 @@
+.joinHouse {
+    width: 100%;
+    height: 10rem;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.houseInvite {
+    width: 95%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.houseInvite  h1{
+    margin: 0;
+    font-weight: 600;
+    font-size: 1vw;
+    text-align: center;
+}
+.joinHouseButton{
+    height: 40%;
+    width: 50%;
+}

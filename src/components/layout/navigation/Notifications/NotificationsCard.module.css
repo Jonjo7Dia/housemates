@@ -1,0 +1,29 @@
+.notificationsBody{
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.notificationUserIcon{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userIconBackground {
+   height: 60%;
+   width: 70%;
+   background-color: #374052;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+.notificationsBody:hover {
+    background-color: #37405236;
+}

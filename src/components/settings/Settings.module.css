@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300;400;500;600;700&display=swap');
+.settingsPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.settingsWrapper {
+    margin-top: 3rem;
+    width: 63.5%;
+
+}
+
+@media only screen and (max-width: 900px){
+    .settingsWrapper{
+        width: 100%;
+    }
+    
+ }
+ 
+ @media only screen and (max-width: 600px){
+    .settingsWrapper{
+        margin-top: 1rem;
+    }
+    
+ }
+ 

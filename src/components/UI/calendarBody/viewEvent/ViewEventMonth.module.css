@@ -1,0 +1,27 @@
+.viewEventMonth {
+    max-height: 100%;
+    width: 90%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+    
+    /* align-items: flex-end; */
+    /* flex-direction: column; */
+
+}
+
+.eventsHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}

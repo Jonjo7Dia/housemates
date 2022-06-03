@@ -1,0 +1,17 @@
+.homePage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.homePageWrapper{
+    width: 85%;
+    
+}
+
+@media only screen and (max-width: 900px){
+    .homePageWrapper{
+        width: 100%;
+    }
+}

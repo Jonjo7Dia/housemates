@@ -1,0 +1,64 @@
+.eventBlock {
+    border: white solid 1px;
+    border-radius: 12px;
+    height: calc(16rem + 3px);
+    position: absolute;
+    float: right;
+    
+
+}
+.eventBlockTitle{
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.eventBlockTitle p{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 90%;
+    margin-top: 2px;
+    font-size: 1vw;
+    position: absolute;
+
+}
+
+
+@media only screen and (max-width: 900px){
+    .eventBlockTitle {
+
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+        height: 100%;
+        width: 100%;
+    }
+    .eventBlockTitle p{
+        writing-mode:vertical-lr;
+        text-orientation:sideways-right;
+        transform: rotate(180deg);
+        font-size: 2vw;
+        height: 100%;
+        width: auto;
+        margin-top: 10px;
+        justify-content: end;
+
+
+
+    }
+   
+}
+
+@media only screen and (max-width: 600px){
+   
+   
+}

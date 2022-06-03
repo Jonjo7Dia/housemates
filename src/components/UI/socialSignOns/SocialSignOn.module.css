@@ -1,0 +1,62 @@
+.socialButton {
+    width: 70%;
+    height: 2.5rem;
+    border:solid #374052 2px;
+    border-radius: 25px;
+    color: #374052;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.socialButton:hover {
+    color: white;
+    background-color: #374052;
+    cursor: pointer;
+}
+
+.socialButton div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLogo{
+    width: 20%;
+
+}
+.socialName {
+    width: 60%;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+
+svg {
+    height: 80%;
+    width: 80%;
+    fill: #374052;
+}
+
+.socialButton:hover svg{
+    fill: white;
+}
+
+@media only screen and (max-width: 900px){
+    .socialName{
+        font-size: 2vw;
+    }
+    
+ }
+ 
+ @media only screen and (max-width: 600px){
+    .socialName{
+        font-size: 3vw;
+    }
+    
+ }
+ 

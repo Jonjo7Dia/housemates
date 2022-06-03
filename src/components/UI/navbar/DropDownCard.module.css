@@ -1,0 +1,18 @@
+.dropDownCard{
+    max-height: 30rem !important;
+    width: 22rem;
+    background-color: white;
+    position: absolute;
+    z-index: 10000;
+    top: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top:  #37405245 solid 2px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300;400;500;600;700&display=swap");
+.userNameSettings {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+.userNameHeader {
+    height: 50%;
+}
+.userNameHeader h1{
+  font-size: 1vw;
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 500;
+  color: #374052;;
+}
+.userNameForm {
+    height: 40%;
+    width: 100%;
+
+}
+
+.userNameForm form {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.userNameForm button {
+    font-size: .8vw;
+}
+
+.userNameForm form input {
+    width: 60%;
+    height: 100%;
+    padding-left: 1%;
+    font-size: .9vw;
+}
+
+@media only screen and (max-width: 900px){
+    .userNameHeader h1{
+        font-size: 2vw;
+    }
+    .userNameForm form{
+        width: 100%;
+        justify-content:flex-start;
+        gap: 1rem;
+    }
+    .userNameForm form input{
+        width: 25%;
+        font-size: 2vw;
+    }
+    .userNameForm button{
+        font-size: 2vw;
+        width: 20% !important;
+    }
+     
+  }
+
+@media only screen and (max-width: 600px){
+    .userNameHeader h1{
+        font-size: 3vw;
+    }
+     
+  }

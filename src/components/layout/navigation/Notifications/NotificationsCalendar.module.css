@@ -1,0 +1,41 @@
+.calendarInvitationInfo{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendarInvitationInfo p{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    font-size: .9vw;
+}
+
+.calendarInvitation{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 900px){
+    .calendarInvitationInfo p{
+    font-size: 1.3vw;
+    }
+    
+ }
+ 
+ @media only screen and (max-width: 600px){
+    .calendarInvitationInfo p{
+        font-size: 2.5vw;
+        }
+    
+ }
+ 

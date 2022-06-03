@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600&family=Lato:wght@100&display=swap');
+
+
+.hasHouseDashboard {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    
+}
+.hasHouseWrapper {
+    width: 70%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.houseName{
+    margin-top: 3rem;
+}
+
+.houseBasicInfo {
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Encode Sans Expanded', sans-serif;
+
+}
+.houseNameLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    color: #374052;
+
+
+}
+.houseLogo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.7vw;
+}
+.houseNameDisplay{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.1vw;
+    
+}
+
+.houseMember{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.houseMemberIcon {
+    width: 2vw;
+    height: 2vw;
+    color: white;
+    background-color: #374052;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 900px){
+    .hasHouseDashboard {
+        margin-top: 1rem;
+    }
+    .hasHouseWrapper {
+        width: 95%;
+    }
+    .houseLogo{
+        display: none;
+    }
+    .houseNameDisplay{
+        width: 100%;
+    }
+    .houseNameDisplay h1{
+        font-size: 3vw;
+        margin: none;
+    }
+    .houseNameLogo{
+        width: 50%;
+    }
+    .houseMember {
+        width: 50%;
+        justify-content: flex-end;
+        gap: 1rem;
+    
+    }
+    .houseMemberIcon{
+        height: 5vw;
+        width: 5vw;
+        font-size: 2.4vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .houseNameDisplay h1{
+        font-size: 4vh;
+        margin: none;
+    }
+
+    .houseBasicInfo{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 6rem;
+    }
+    .houseMember {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content:flex-start;
+        gap: 1rem;
+    }
+    .hasHouseWrapper{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .houseNameLogo{
+        width: 100%;
+    }
+    .houseMemberIcon{
+        height: 8vw;
+        width: 8vw;
+        font-size: 3vw;
+    }
+    
+}

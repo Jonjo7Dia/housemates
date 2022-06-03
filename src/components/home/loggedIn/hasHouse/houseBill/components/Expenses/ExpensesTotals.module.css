@@ -1,0 +1,59 @@
+.expensesTotal {
+    width: 90%;
+    margin-top: 1rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.expenseTotal {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.expenseTotal:last-of-type{
+    justify-content: space-between!important;
+}
+.totalPrice{
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.expenseTotal label{
+
+    font-size: 1.1vw;
+    color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    .expenseTotal label{
+        font-size: 1.8vw;
+    }
+    .totalPrice {
+        font-size: 1.7vw;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .expenseTotal label{
+        font-size: 2.5vw;
+    }
+    .totalPrice {
+        font-size: 2vw;
+    }
+    .expenseTotal {
+        width: 48%;
+    }
+  }
+  

@@ -1,0 +1,19 @@
+.minimalButton {
+    background: transparent;
+    border-style: none;
+    color: #4d5562;
+    border-radius: 5px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 1.2vw;
+
+}
+
+.minimalButton:hover{
+    background-color: #efefef;
+    
+}
+@media only screen and (max-width: 900px){
+    .minimalButton{
+        font-size: 4vw;
+    }
+}

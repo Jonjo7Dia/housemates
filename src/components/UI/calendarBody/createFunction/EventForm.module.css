@@ -1,0 +1,98 @@
+.eventForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.eventForm form{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.eventForm input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border:none;
+    font-size: 1vw;
+    text-align: center;
+}
+.eventTitleInput {
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    border-bottom: #37405245 solid 2px;
+    
+}
+.eventTitleInput input {
+    outline: none;
+    border: none;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.colorPicker {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.colorPicker div {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}
+.red {
+    background-color: rgb(213, 0, 0);;
+}
+
+.blue {
+    background-color: rgb(3, 155, 229);
+}
+
+.green{
+    background-color: rgb(51, 182, 121);
+}
+.yellow{
+    background-color: rgb(246, 191, 38);
+}
+
+.colorPicker div:hover{
+    border: solid 2px #374052;
+}
+
+.datePicker {
+    width: 100%;
+    height: 3rem;
+    border-bottom: #37405245 solid 2px;
+    margin-bottom: 1rem;
+}
+.timePicker {
+    width: 100%;
+    height: 3rem;
+    border-bottom: #37405245 solid 2px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timePicker input {
+    width: 45%;
+}
+.timePicker input:last-of-type{
+    text-align: left;
+}
+.submitEvent {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.submitEvent button {
+    font-size: .8vw;
+}

@@ -1,0 +1,136 @@
+.week {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.weekHeader {
+    width: 95%;
+    margin-left: 5%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: .8vw;
+}
+.dayOfWeek{
+    height: 100%;
+    width: 14.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.weekBody{
+    width: 100%;
+    height: 88%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+.timeAxis {
+    width: 5%;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border-top: black solid 1px;
+
+}
+.timeOfDay {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    font-size: .8vw;
+    flex-shrink: 0;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 10%;
+    border-bottom: black solid 1px;
+
+}
+
+.dayOfWeekEvent{
+    border-top: black solid 1px;
+
+    width: 13.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+
+
+}
+.dayOfWeekEvent:last-of-type{
+    border-right: none;
+}
+.eventSelector {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+}
+.firstHalfHour:hover{
+    background-color: rgba(128, 128, 128, 0.432);
+
+}
+.secondHalfHour:hover{
+    background-color: rgba(128, 128, 128, 0.432);
+
+}
+.firstHalfHour {
+    width: 100%;
+    height: 50%;
+}
+.secondHalfHour{
+    width: 100%;
+    height: 50%;
+}
+/* .eventSelector:last-of-type{
+    border: none;
+} */
+
+@media only screen and (max-width: 900px){
+  
+    .dayOfWeek {
+        font-size: 1.5vw;
+    }
+    .timeOfDay{
+        font-size: 1vw;
+    }
+ }
+ 
+ @media only screen and (max-width: 600px){
+    
+    .dayOfWeek {
+        font-size: 2vw;
+    }
+    .timeOfDay{
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+    }
+    .timeOfDay p{
+
+        margin-block-start: 0 !important;
+        margin-block-end: 0;
+        padding: 0;
+        transform: rotate(270deg);
+
+
+    }
+    
+ }

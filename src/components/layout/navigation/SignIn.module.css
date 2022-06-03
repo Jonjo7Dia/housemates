@@ -1,0 +1,54 @@
+.signIn {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.signUp {
+    width: 100%;
+}
+
+.signIn li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 45%;
+}
+a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
+}
+
+@media only screen and (max-width: 900px){
+    .signIn{
+        width: 100%;
+    
+    }
+    .signIn li {
+        width: 35%;
+
+    }
+    .signIn li a button{
+        font-size: 3vw  !important;
+
+    }
+   
+
+}
+@media only screen and (max-width: 600px){
+    .signIn li a button{
+        font-size: 3.5vw  !important;
+        width: 150% !important;
+        height: 60% !important;
+    }
+
+}

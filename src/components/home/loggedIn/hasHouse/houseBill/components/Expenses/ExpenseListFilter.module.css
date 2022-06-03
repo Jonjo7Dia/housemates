@@ -1,0 +1,42 @@
+.expenseListFilter{
+    color: white;
+    display: flex;
+    margin-top: 1rem;
+    width: 95%;
+    height: 2rem;
+    justify-content: center;
+}
+
+.expensesListFilterControl{
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expensesListFilterControl select {
+    font: inherit;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 25%;
+    text-align: center;
+    height: 2rem;
+    font-size: 1.3vw;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .expenseListFilter {
+      font-size: 2.5vw;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .expenseListFilter {
+        font-size: 3.5vw;
+      }
+      .expensesListFilterControl select {
+          width: 35%;
+          font-size: 3vw;
+      }
+  }
+  

@@ -1,0 +1,125 @@
+.loggedInNav{
+    width: 100%;
+    height: 100%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+
+.navNotifications{
+    width: 5%;
+    position: relative;
+
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navNotifications .navLoggedInBkg{
+    width: 3.5vw;
+    border-radius: 50%;
+
+}
+
+.navLoggedInBkg{
+    
+    height: 3.5vw !important;
+
+    
+    color: #374052;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.navLoggedInBkg h1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 1.5vw ;
+    margin: 0;
+
+}
+
+.navLoggedInBkg:hover{
+    cursor: pointer;
+}
+
+.navUserIcon{
+    width: 10%;
+
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.navUserIcon .navLoggedInBkg{
+    width: 6rem;
+    border-radius: 15%;
+}
+
+@media only screen and (max-width: 900px){
+    .navNotifications{
+        justify-content:  flex-end;
+        width: 20%;
+    }
+    .navNotifications .navLoggedInBkg{
+        height: 5vw !important;
+        width: 5vw;
+        border-radius: 50%;
+    
+    }
+   .navNotifications svg{
+        height: 4vw;
+        width: 3vw;
+
+   }
+   .navUserIcon{
+       width: 30%;
+       justify-content: flex-end;
+       gap: 1rem;
+       
+   }
+
+   .navUserIcon h1 {
+    font-size: 3vw;
+   }
+   
+}
+
+@media only screen and (max-width: 600px){
+    .navNotifications .navLoggedInBkg{
+        height: 8vw !important;
+        width: 8vw;
+        border-radius: 50%;
+    
+    }
+   .navNotifications svg{
+        height: 4vw;
+        width: 3vw;
+
+   }
+   .navUserIcon{
+       width: 30%;
+       justify-content: flex-end;
+       gap: 1rem;
+       
+   }
+
+   .navUserIcon h1 {
+    font-size: 3vw;
+   }
+   
+   
+}

@@ -1,0 +1,54 @@
+.signUpPage{
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+}
+.signUpWrapper{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signUpOptions {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.signUpOptions ul{
+    display: flex;
+    justify-content: center;
+}
+.signUpOptions li{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 900px){
+    .signUpWrapper{
+        width: 100%;
+    }
+    .signUpOptions{
+        width: 80%;
+
+    }
+    .loginOptions li{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+ }

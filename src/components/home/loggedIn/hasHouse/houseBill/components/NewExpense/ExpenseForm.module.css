@@ -1,0 +1,63 @@
+.newExpenseControls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.newExpenseControl label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: white;
+}
+.newExpenseControl {
+  width: 40%;
+  max-width: 100%;
+}
+
+.newExpenseControl input,
+.newExpenseControl select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.newExpenseActions {
+  text-align: right;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.newExpenseActions button {
+  width: 40%;
+}
+.expenseForm {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 900px) {
+  .newExpenseActions button {
+    font-size: 2vw;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .newExpenseActions button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80%;
+    font-size: 4vw;
+  }
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600&family=Lato:wght@100&display=swap');
+
+.addHouseButton {
+    width: 25%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: #374052;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: .8vw;
+    user-select: none;
+
+}
+
+.addHouseButton:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.houseConfigurations {
+    width: 50%;
+
+}
+
+@media only screen and (max-width: 600px){
+    .houseConfigurations{
+        width: 80%;
+    }
+    
+ }

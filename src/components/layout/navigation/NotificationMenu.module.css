@@ -1,0 +1,48 @@
+.notificationMenu{
+    height: 100%;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.notificationMenuHeader{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom:  #37405245 solid 2px;
+
+
+}
+.notificationMenuHeader h1{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3vw;
+    margin: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.notificationsMenuBody{
+    max-height: 30rem;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+@media only screen and (max-width: 900px){
+   .notificationMenuHeader h1{
+   font-size: 2vw;
+   }
+   
+}
+
+@media only screen and (max-width: 600px){
+    .notificationMenuHeader h1{
+        font-size: 4vw;
+    }
+   
+}

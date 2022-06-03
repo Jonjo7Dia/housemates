@@ -1,0 +1,17 @@
+.logoutSettings {
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px){
+    .logoutSettings{
+        width: 80%;
+    }
+     
+  }
+
+@media only screen and (max-width: 600px){
+    .userNameHeader h1{
+        font-size: 3vw;
+    }
+     
+  }

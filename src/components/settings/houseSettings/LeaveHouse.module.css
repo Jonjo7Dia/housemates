@@ -1,0 +1,10 @@
+.leaveHouse {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px){
+   .leaveHouse{
+       width: 80%;
+   }
+    
+ }

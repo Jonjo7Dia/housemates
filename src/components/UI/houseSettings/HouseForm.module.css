@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600&family=Lato:wght@100&display=swap');
+
+.houseFormOverlay {
+  position: fixed; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  display: flex;
+  justify-content: center;
+}
+
+.houseFormBackground {
+  margin-top: 5%;
+  position: absolute;
+  z-index: 3;
+  width: 30%;
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.houseFormHeader {
+    border-bottom: solid #374052 3px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    height: 4rem;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color: #374052;
+    font-size: 1vw;
+}
+.houseForm {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+.houseNameInput{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    margin-top: 3rem;
+
+}
+.houseNameInput label{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #374052;
+}
+.houseNameInput input {
+    width: 78%;
+    outline: none;
+}
+input {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    text-transform: uppercase;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+.currentHouseMembers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+    
+  
+    
+}
+
+ .houseForm h2{
+    text-transform: uppercase;
+ 
+    color: #374052;
+    font-size: 1.3vw;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+
+}
+
+.memberIcons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+    height: 5rem;
+}
+.memberIcon{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.memberInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.memberLogo{
+    width: 2.5rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #374052;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+}
+.memberName {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .6vw;
+}
+
+.inviteMembers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+
+}
+
+
+.inviteMembersInput {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+
+}
+.inviteMembers label{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #374052;
+}
+
+.inviteMembers input {
+    width: 78%;
+    outline: none;
+}
+.addInvitation {
+    width: 6%;
+    height: 100%;
+    margin-left: 3%;
+    background: none;
+    border: none;
+    font-size: 1.3vw;
+    color: #374052
+}
+.addInvitation:hover{
+    cursor: pointer;
+}
+.houseFormButtons {
+    width: 100%;
+    height: 4rem;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}

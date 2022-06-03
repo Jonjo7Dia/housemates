@@ -1,0 +1,42 @@
+.expensesList {
+    list-style: none;
+    padding: 0;
+    height: 20rem;
+    overflow-y: scroll;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.expensesList li{
+    width: 100%;
+}
+.expenseListFallback{
+    color: white;
+    text-align: center;
+}
+.expenseListWrapper {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: solid 1px white;
+}
+
+
+  
+  @media only screen and (max-width: 600px) {
+   .expenseListFallback {
+       font-size: 4.5vw;
+   }
+   .expensesList {
+       height: 15rem;
+   }
+   .expenseListWrapper{
+       max-height: 12rem;
+   }
+  }
+  

@@ -1,0 +1,81 @@
+.settingsBody {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 12px;
+}
+.settingsBody:hover{
+    background-color: #37405236;
+}
+.settingsLogo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.settingsLogoBackground {
+    background-color: #374052;
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8vw;
+}
+.settingsDescription {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 1vw;
+    color: #374052;
+
+
+}
+.settingsButton {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #374052;
+    font-size: 1.2vw;
+}
+
+
+@media only screen and (max-width: 900px){
+    .settingsDescription {
+        font-size: 1.8vw;
+    }
+    .settingsLogoBackground {
+
+        height: 3.5vw;
+        width: 3.5vw;
+        font-size: 1.5vw;
+    }
+    
+ }
+ 
+ @media only screen and (max-width: 600px){
+    .settingsDescription {
+        font-size: 3vw;
+    }
+    .settingsLogoBackground {
+
+        height: 7vw;
+        width: 7vw;
+        font-size: 3vw;
+    }
+    .settingsButton{
+        font-size: 4vw;
+    }
+    
+ }
